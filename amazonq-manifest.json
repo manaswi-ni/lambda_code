@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "name": "lambda-code-app",
+  "runtime": "python3.12",
+  "entryPoint": "app.lambda_handler",
+  "deploy": {
+    "target": "lambda",
+    "autoDeploy": true
+  }
+}
